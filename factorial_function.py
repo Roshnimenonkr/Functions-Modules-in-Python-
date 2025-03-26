@@ -1,11 +1,11 @@
 
-def fact(num):
+def factorial(num):
     a=num
-    factorial=1
+    fact=1
     while(num>0):
-        factorial*=num
+        fact*=num
         num-=1
-    return factorial
+    return fact
 
 a=int(input("Enter a Number:"))
-print("Factorial of",a,"is",fact(a))
+print("Factorial of",a,"is",factorial(a))
